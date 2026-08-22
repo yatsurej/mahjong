@@ -1,0 +1,112 @@
+/* Palette carried over from the Playbook: jade felt, red dragon, gold flower. */
+:root {
+  --bg: #EEF0E8;
+  --surface: #F8F9F3;
+  --surface-2: #E4E8DB;
+  --surface-3: #D9DFCC;
+  --ink: #17201B;
+  --ink-soft: #495449;
+  --ink-faint: #6E7A6C;
+  --line: #D3D9C8;
+  --line-strong: #BFC7B2;
+  --jade: #0E5B45;
+  --jade-bright: #14795B;
+  --red: #BE362B;
+  --red-ink: #9A2A21;
+  --gold: #A97D24;
+  --gold-ink: #8A6416;
+
+  --felt: #16513E;
+  --felt-2: #0E3A2C;
+  --felt-line: rgba(255, 255, 255, .09);
+  --on-felt: #E9EFE4;
+  --on-felt-soft: #A9C4B4;
+
+  --tile-face: linear-gradient(177deg, #FFFDF4 0%, #F6F2E2 62%, #EDE7D2 100%);
+  --tile-edge: #C9C2A6;
+  --tile-ink: #1B2620;
+  --tile-back: linear-gradient(160deg, #1E6B52 0%, #14523E 55%, #0E3E2E 100%);
+  --tile-back-edge: #0A2C21;
+
+  --shadow: 0 1px 2px rgba(23, 32, 27, .06), 0 12px 30px -18px rgba(23, 32, 27, .28);
+  --shadow-lift: 0 2px 4px rgba(23, 32, 27, .08), 0 22px 40px -22px rgba(23, 32, 27, .34);
+  --shadow-tile: 0 1px 0 var(--tile-edge), 0 2px 3px rgba(10, 24, 18, .22);
+
+  --font-display: "Hoefler Text", "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+  --font-body: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "SF Mono", "JetBrains Mono", "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+  --font-tile: "Apple Symbols", "Segoe UI Symbol", "Noto Sans Symbols 2", "DejaVu Sans", sans-serif;
+
+  --radius: 14px;
+  --radius-sm: 9px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0B1310;
+    --surface: #121E18;
+    --surface-2: #0E1913;
+    --surface-3: #16241C;
+    --ink: #ECEADC;
+    --ink-soft: #A7B2A5;
+    --ink-faint: #7C887A;
+    --line: #243228;
+    --line-strong: #33463A;
+    --jade: #45C398;
+    --jade-bright: #5AD8AC;
+    --red: #EC6152;
+    --red-ink: #F1806F;
+    --gold: #DAAD52;
+    --gold-ink: #E7C275;
+
+    --felt: #0F3C2E;
+    --felt-2: #082A20;
+    --felt-line: rgba(255, 255, 255, .06);
+    --on-felt: #DCE8DC;
+    --on-felt-soft: #8FAE9D;
+
+    --tile-face: linear-gradient(177deg, #F0EBD8 0%, #E4DDC6 62%, #D6CFB6 100%);
+    --tile-edge: #9E9878;
+    --tile-ink: #16201A;
+    --tile-back: linear-gradient(160deg, #17553F 0%, #0E4030 55%, #0A2F23 100%);
+    --tile-back-edge: #061F17;
+
+    --shadow: 0 1px 2px rgba(0, 0, 0, .4), 0 16px 34px -20px rgba(0, 0, 0, .7);
+    --shadow-lift: 0 2px 4px rgba(0, 0, 0, .5), 0 26px 46px -22px rgba(0, 0, 0, .8);
+    --shadow-tile: 0 1px 0 rgba(0, 0, 0, .5), 0 3px 5px rgba(0, 0, 0, .45);
+  }
+}
+
+:root[data-theme="dark"] {
+  --bg: #0B1310;
+  --surface: #121E18;
+  --surface-2: #0E1913;
+  --surface-3: #16241C;
+  --ink: #ECEADC;
+  --ink-soft: #A7B2A5;
+  --ink-faint: #7C887A;
+  --line: #243228;
+  --line-strong: #33463A;
+  --jade: #45C398;
+  --jade-bright: #5AD8AC;
+  --red: #EC6152;
+  --red-ink: #F1806F;
+  --gold: #DAAD52;
+  --gold-ink: #E7C275;
+
+  --felt: #0F3C2E;
+  --felt-2: #082A20;
+  --felt-line: rgba(255, 255, 255, .06);
+  --on-felt: #DCE8DC;
+  --on-felt-soft: #8FAE9D;
+
+  --tile-face: linear-gradient(177deg, #F0EBD8 0%, #E4DDC6 62%, #D6CFB6 100%);
+  --tile-edge: #9E9878;
+  --tile-ink: #16201A;
+  --tile-back: linear-gradient(160deg, #17553F 0%, #0E4030 55%, #0A2F23 100%);
+  --tile-back-edge: #061F17;
+
+  --shadow: 0 1px 2px rgba(0, 0, 0, .4), 0 16px 34px -20px rgba(0, 0, 0, .7);
+  --shadow-lift: 0 2px 4px rgba(0, 0, 0, .5), 0 26px 46px -22px rgba(0, 0, 0, .8);
+  --shadow-tile: 0 1px 0 rgba(0, 0, 0, .5), 0 3px 5px rgba(0, 0, 0, .45);
+}

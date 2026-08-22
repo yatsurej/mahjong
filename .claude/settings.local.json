@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx tsc *)",
+      "Bash(npx vitest *)",
+      "Bash(npm run *)",
+      "Bash(npm install *)",
+      "Bash(curl -s -o /dev/null -w 'REST API: HTTP %{http_code}\\\\n' https://naebkirjpgpqgppuovwo.supabase.co/rest/v1/ -H 'apikey: sb_publishable_SPYoCX5x4mvi4z2V-EcKdg_v1NuW6WX')",
+      "Bash(curl -s -o /dev/null -w '   HTTP %{http_code}\\\\n' https://naebkirjpgpqgppuovwo.supabase.co/auth/v1/settings -H 'apikey: sb_publishable_SPYoCX5x4mvi4z2V-EcKdg_v1NuW6WX')",
+      "Bash(curl -s -o /dev/null -w '   HTTP %{http_code}\\\\n' https://naebkirjpgpqgppuovwo.supabase.co/rest/v1/ -H 'apikey: sb_publishable_SPYoCX5x4mvi4z2V-EcKdg_v1NuW6WX' -H 'Authorization: Bearer sb_publishable_SPYoCX5x4mvi4z2V-EcKdg_v1NuW6WX')",
+      "Bash(curl -s -o /dev/null -w '   HTTP %{http_code}\\\\n' 'https://naebkirjpgpqgppuovwo.supabase.co/realtime/v1/websocket?apikey=sb_publishable_SPYoCX5x4mvi4z2V-EcKdg_v1NuW6WX&vsn=1.0.0')",
+      "Bash(curl -s https://naebkirjpgpqgppuovwo.supabase.co/auth/v1/settings -H 'apikey: sb_publishable_SPYoCX5x4mvi4z2V-EcKdg_v1NuW6WX')",
+      "Bash(grep -n \"return { state, dispatch, restart, humanTurn }\" src/ui/useGame.ts)",
+      "Bash(cd *)"
+    ]
+  }
+}
